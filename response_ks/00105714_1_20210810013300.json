@@ -1,0 +1,63 @@
+{
+    "access_no": 190,
+    "identification": "00105714",
+    "manufacturer": "NIK",
+    "medium": 4,
+    "records": [
+        {
+            "type": "Date time general",
+            "unit": "date time",
+            "value": "2080-10-00T31:59"
+        },
+        {
+            "type": "Energy wh",
+            "unit": "WH",
+            "value": 7769900
+        },
+        {
+            "type": "Volume",
+            "unit": "m^3",
+            "value": 237.813000000000016598278307355940341949462890625
+        },
+        {
+            "type": "Power w",
+            "unit": "W",
+            "value": 0
+        },
+        {
+            "type": "Volume flow",
+            "unit": "m^3/h",
+            "value": 0
+        },
+        {
+            "type": "Flow temperature",
+            "unit": "C",
+            "value": 24.53999999999999914734871708787977695465087890625
+        },
+        {
+            "type": "Return temperature",
+            "unit": "C",
+            "value": 23.980000000000000426325641456060111522674560546875
+        },
+        {
+            "type": "Temperature difference",
+            "unit": "K",
+            "value": 0.560000000000000053290705182007513940334320068359375
+        },
+        {
+            "type": "On time",
+            "unit": "seconds",
+            "value": 12992690
+        },
+        {
+            "type": "Operating time",
+            "unit": "seconds",
+            "value": 12992690
+        },
+        {
+            "type": "Reserved",
+            "unit": "none",
+            "value": 5532
+        }
+    ]
+}

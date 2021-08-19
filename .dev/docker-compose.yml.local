@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  web:
+    container_name: dispatching-api
+    image: dock.nikel.loc:5005/home/dispatching-api:$DTAG
+    command: uvicorn app.main:app --reload --workers 1 --host 0.0.0.0 --port 8000
+    ports:
+      - $BIND_PORT:8000
+    environment:
+      - RDB_NAME=$RDB_NAME
+      - RDB_USER_NAME=$RDB_USER_NAME
+      - RDB_USER_PASSWORD=$RDB_USER_PASSWORD
+      - RDB_HOST=$RDB_HOST
+      - ACCESS_TOKEN=$ACCESS_TOKEN
+      - DB_API_BASE_URL=$DB_API_BASE_URL
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./src/:/usr/src/app/
